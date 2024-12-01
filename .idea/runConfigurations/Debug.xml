@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Debug" type="OdinRunConfiguration" factoryName="OdinRunConfiguration">
+    <option name="compilerOptions" value="-o:none -debug" />
+    <option name="outputPath" value="bin/$ProjectName$d.exe" />
+    <option name="programArguments" />
+    <option name="projectDirectoryPath" value="$ProjectFileDir$/src" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Release" type="OdinRunConfiguration" factoryName="OdinRunConfiguration">
+    <option name="compilerOptions" value="-o:speed" />
+    <option name="programArguments" />
+    <option name="projectDirectoryPath" value="$ProjectFileDir$/src" />
+    <method v="2" />
+  </configuration>
+</component>
