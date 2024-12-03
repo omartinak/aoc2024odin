@@ -4,6 +4,7 @@
     <option name="outputPath" value="bin/$ProjectName$d.exe" />
     <option name="programArguments" />
     <option name="projectDirectoryPath" value="$ProjectFileDir$/src" />
+    <option name="workingDirectory" value="C:\Dev\odin\aoc2024odin" />
     <method v="2" />
   </configuration>
 </component>
