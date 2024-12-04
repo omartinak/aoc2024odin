@@ -79,13 +79,14 @@ day02a :: proc() {
         if is_report_safe2(tokens) do sum += 1
     }
 
-    //    fmt.println(sum == 2 ? "Pass" : "Fail", sum)
+//    fmt.println(sum == 2 ? "Pass" : "Fail", sum)
     fmt.println(sum == 371 ? "Pass" : "Fail", sum)
 }
 
 day02b :: proc() {
 //    lines := read_input("data/day02_test.txt")
-    lines := read_input("data/day02.txt")
+//    lines := read_input("data/day02.txt")
+    lines := read_input("data/day02_nesquick.txt")
 
     sum: int
     for line in lines {
@@ -94,5 +95,6 @@ day02b :: proc() {
     }
 
 //    fmt.println(sum == 4 ? "Pass" : "Fail", sum)
-    fmt.println(sum == 426 ? "Pass" : "Fail", sum)
+//    fmt.println(sum == 426 ? "Pass" : "Fail", sum)
+    fmt.println(sum == 308 ? "Pass" : "Fail", sum) // nesquick
 }

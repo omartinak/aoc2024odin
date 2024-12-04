@@ -26,8 +26,8 @@ main :: proc() {
         }
     }
 
-    day02a()
-    day02b()
+    day04a()
+    day04b()
 
     free_all(context.allocator)
 }
