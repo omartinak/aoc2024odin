@@ -106,6 +106,7 @@ day04a :: proc() {
 mas := "MAS"
 
 check_mas :: proc(data: []u8, i, j: int, width, height: int) -> int {
+    // TODO: we don't need for - there are only two diagonals
     rd := true
     ld := true
     ru := true
